@@ -313,7 +313,8 @@ extern "C" {
   #define SYSTEM_SIM_SOPT2_VALUE       0x00010000U         /* SIM_SOPT2 */
 #endif
 #else
-  #define DEFAULT_SYSTEM_CLOCK         20971520u           /* Default System clock value */
+  //#define DEFAULT_SYSTEM_CLOCK         20971520u           /* Default System clock value */
+	#define DEFAULT_SYSTEM_CLOCK 120000000u
 #endif
 
 /**

@@ -27,13 +27,23 @@ Project File Date:  05/06/2018
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
+compiling main.c...
+ADC.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif /*ADC_H*/
+main.c(11): warning:  #177-D: variable "bADCData0"  was declared but never referenced
+  	unsigned short bADCData0;
+main.c(12): warning:  #177-D: variable "bADCData1"  was declared but never referenced
+  	unsigned short bADCData1;
+main.c(36): warning:  #1-D: last line of file ends without a newline
+  //DEFAULT_SYSTEM_CLOCK
+main.c: 4 warnings, 0 errors
 compiling ADC.c...
 ADC.h(14): warning:  #1-D: last line of file ends without a newline
   #endif /*ADC_H*/
 ADC.c: 1 warning, 0 errors
 linking...
-Program Size: Code=14532 RO-data=2536 RW-data=24 ZI-data=2160  
-".\Objects\SoundLocalization.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=15148 RO-data=2536 RW-data=24 ZI-data=66768  
+".\Objects\SoundLocalization.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -43,6 +53,7 @@ Package Vendor: ARM
                 CMSIS (Cortex Microcontroller Software Interface Standard)
    * Component: I2C Version: 2.3.0
    * Component: CORE Version: 5.1.1
+   * Component: DSP Version: 1.5.2
 
 Package Vendor: NXP
                 http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MK64F12_DFP.10.0.1.pack
@@ -100,6 +111,10 @@ Package Vendor: Keil
    * Component: ::Device:KSDK Configuration (API)
 
    * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: ARM::CMSIS:DSP:1.5.2
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+      Include file:  CMSIS\Include\arm_math.h
 
    * Component: Keil::CMSIS Driver:I2C:1.3
       Source file:   addon_cmsis\Driver\MK64F\I2C_MK64F.c
@@ -214,7 +229,7 @@ Package Vendor: Keil
       Source file:   platform\devices\MK64F12\startup\arm\startup_MK64F12.s
       Include file:  platform\devices\MK64F12\startup\system_MK64F12.h
       Source file:   platform\devices\startup.c
-Build Time Elapsed:  00:00:09
+Build Time Elapsed:  00:00:10
 </pre>
 </body>
 </html>

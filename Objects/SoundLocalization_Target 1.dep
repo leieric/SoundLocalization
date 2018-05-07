@@ -1,5 +1,5 @@
 Dependencies for Project 'SoundLocalization', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5AEF9890)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1-D__UVISION_VERSION="525" -D_RTE_ -DCPU_MK64FN1M0VLL12-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5AEFCFF1)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1-D__UVISION_VERSION="525" -D_RTE_ -DCPU_MK64FN1M0VLL12-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\fsl_device_registers.h)(0x552C65CA)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F75EE)
@@ -7,7 +7,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -24,7 +24,7 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc\fsl_gpio_
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc\fsl_port_hal.h)(0x552C1A34)
 I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599F75EA)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x552C1A34)
-F (.\ADC.c)(0x5AEFA312)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1-D__UVISION_VERSION="525" -D_RTE_ -DCPU_MK64FN1M0VLL12-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+F (.\ADC.c)(0x5AEFD11D)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1-D__UVISION_VERSION="525" -D_RTE_ -DCPU_MK64FN1M0VLL12-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\fsl_device_registers.h)(0x552C65CA)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F75EE)
@@ -32,13 +32,14 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
 I (ADC.h)(0x5AEF6363)
 F (.\ADC.h)(0x5AEF6363)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x5A60C1E8)()
 F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\addon_cmsis\Driver\MK64F\I2C_MK64F.c)(0x557B1AB6)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1-D__UVISION_VERSION="525" -D_RTE_ -DCPU_MK64FN1M0VLL12-o .\objects\i2c_mk64f.o --omf_browse .\objects\i2c_mk64f.crf --depend .\objects\i2c_mk64f.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\addon_cmsis\Driver\MK64F\I2C_MK64F.h)(0x55759B38)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F75EC)
@@ -55,7 +56,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -93,7 +94,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -123,7 +124,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -136,7 +137,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -156,7 +157,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -169,7 +170,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -186,7 +187,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -207,7 +208,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -223,7 +224,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -251,7 +252,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -271,7 +272,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -289,7 +290,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -310,7 +311,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -328,7 +329,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -352,7 +353,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -368,7 +369,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -384,7 +385,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -400,7 +401,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -416,7 +417,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -433,7 +434,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -449,7 +450,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -466,7 +467,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -482,7 +483,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -498,7 +499,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -514,7 +515,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -530,7 +531,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -548,7 +549,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -567,7 +568,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -590,7 +591,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -609,7 +610,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -634,7 +635,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -659,7 +660,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
@@ -675,7 +676,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -703,7 +704,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F75EE)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F75EC)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
 I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599F75EE)
-F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_flash.scf)(0x552C65C6)()
+F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_flash.scf)(0x5AEFC8AD)()
 F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_ram.scf)(0x552C65C6)()
 F (RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x5AED14DE)()
 F (RTE\Device\MK64FN1M0VLL12\hardware_init.c)(0x5AED14EC)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1-D__UVISION_VERSION="525" -D_RTE_ -DCPU_MK64FN1M0VLL12-o .\objects\hardware_init.o --omf_browse .\objects\hardware_init.crf --depend .\objects\hardware_init.d)
@@ -722,7 +723,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
@@ -746,9 +747,9 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A563EA2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8EC8A2)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8EC8A2)
-I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C65C6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F75EC)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C65C6)
-F (RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C65C6)()
+F (RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5AEFCE7F)()
