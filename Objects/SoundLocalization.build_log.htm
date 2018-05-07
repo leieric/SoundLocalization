@@ -1,0 +1,220 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Eric Lei, Cornell, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      CMSIS_AGDI.dll V1.29.10.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Eric Lei\Documents\ECE3140\FinalProject\SoundLocalization.uvprojx
+Project File Date:  05/06/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling ADC.c...
+ADC.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif /*ADC_H*/
+ADC.c: 1 warning, 0 errors
+linking...
+Program Size: Code=14532 RO-data=2536 RW-data=24 ZI-data=2160  
+".\Objects\SoundLocalization.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: I2C Version: 2.3.0
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MK64F12_DFP.10.0.1.pack
+                NXP.MK64F12_DFP.10.0.1
+                Device Family Pack for MK64F12
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_SDK_DFP.2.3.0.pack
+                Keil.Kinetis_SDK_DFP.2.3.0
+                NXP Kinetis SDK v1.2.0 including MK64FN1M0VLL12 CMSIS Device Support and Drivers
+   * Component: KSDK Configuration Version: 
+   * Component: I2C Version: 1.3
+   * Component: FRDM-K64F Version: 1.2.0
+   * Component: ADC16 Version: 1.2.0
+   * Component: GPIO Version: 1.2.0
+   * Component: RTC Version: 1.2.0
+   * Component: eDMA Version: 1.2.0
+   * Component: ADC16 Version: 1.2.0
+   * Component: DMAMUX Version: 1.2.0
+   * Component: GPIO Version: 1.2.0
+   * Component: I2C Version: 1.2.0
+   * Component: LPTMR Version: 1.2.0
+   * Component: MCG Version: 1.2.0
+   * Component: OSC Version: 1.2.0
+   * Component: PORT Version: 1.2.0
+   * Component: RTC Version: 1.2.0
+   * Component: SIM Version: 1.2.0
+   * Component: UART Version: 1.2.0
+   * Component: eDMA Version: 1.2.0
+   * Component: OSA Variant: Bare Metal Version: 1.2.0
+   * Component: Clock Version: 1.2.0
+   * Component: Interrupt Version: 1.2.0
+   * Component: Debug Console Version: 1.2.0
+   * Component: Startup Version: 2.8
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\MK64FN1M0VLL12
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\examples\frdmk64f
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\devices
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\drivers\inc
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\hal\inc
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\osa\inc
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\system\inc
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.3.0\platform\utilities\inc
+  C:\Keil_v5\ARM\PACK\NXP\MK64F12_DFP\10.0.1
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:I2C:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+
+   * Component: ::Device:KSDK Configuration (API)
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::CMSIS Driver:I2C:1.3
+      Source file:   addon_cmsis\Driver\MK64F\I2C_MK64F.c
+
+   * Component: Keil::Device:KSDK Configuration:FRDM-K64F:1.2.0
+      Source file:   examples\frdmk64f\gpio_pins.c
+      Source file:   examples\frdmk64f\hardware_init.c
+      Source file:   examples\frdmk64f\board.c
+      Include file:  examples\frdmk64f\board.h
+      Source file:   examples\frdmk64f\pin_mux.c
+
+   * Component: Keil::Device:KSDK Driver:ADC16:1.2.0
+      Source file:   platform\drivers\src\adc16\fsl_adc16_driver.c
+      Source file:   platform\drivers\src\adc16\fsl_adc16_common.c
+      Source file:   platform\drivers\src\adc16\fsl_adc16_irq.c
+      Source file:   platform\drivers\src\adc16\fsl_adc16_lpm_callback.c
+      Include file:  platform\drivers\inc\fsl_adc16_driver.h
+
+   * Component: Keil::Device:KSDK Driver:GPIO:1.2.0
+      Source file:   platform\drivers\src\gpio\fsl_gpio_irq.c
+      Source file:   platform\drivers\src\gpio\fsl_gpio_lpm_callback.c
+      Source file:   platform\drivers\src\gpio\fsl_gpio_common.c
+      Source file:   platform\drivers\src\gpio\fsl_gpio_driver.c
+      Include file:  platform\drivers\inc\fsl_gpio_driver.h
+
+   * Component: Keil::Device:KSDK Driver:RTC:1.2.0
+      Include file:  platform\drivers\inc\fsl_rtc_driver.h
+      Source file:   platform\drivers\src\rtc\fsl_rtc_irq.c
+      Source file:   platform\drivers\src\rtc\fsl_rtc_common.c
+      Source file:   platform\drivers\src\rtc\fsl_rtc_driver.c
+      Source file:   platform\drivers\src\rtc\fsl_rtc_lpm_callback.c
+
+   * Component: Keil::Device:KSDK Driver:eDMA:1.2.0
+      Source file:   platform\drivers\src\edma\fsl_edma_irq.c
+      Source file:   platform\drivers\src\edma\fsl_edma_common.c
+      Source file:   platform\drivers\src\edma\fsl_edma_driver.c
+      Include file:  platform\drivers\inc\fsl_edma_driver.h
+      Source file:   platform\drivers\src\edma\fsl_edma_lpm_callback.c
+
+   * Component: Keil::Device:KSDK HAL:ADC16:1.2.0
+      Include file:  platform\hal\inc\fsl_adc16_hal.h
+      Source file:   platform\hal\src\adc16\fsl_adc16_hal.c
+
+   * Component: Keil::Device:KSDK HAL:DMAMUX:1.2.0
+      Include file:  platform\hal\inc\fsl_dmamux_hal.h
+      Source file:   platform\hal\src\dmamux\fsl_dmamux_hal.c
+
+   * Component: Keil::Device:KSDK HAL:GPIO:1.2.0
+      Include file:  platform\hal\inc\fsl_gpio_hal.h
+      Source file:   platform\hal\src\gpio\fsl_gpio_hal.c
+
+   * Component: Keil::Device:KSDK HAL:I2C:1.2.0
+      Include file:  platform\hal\inc\fsl_i2c_hal.h
+      Source file:   platform\hal\src\i2c\fsl_i2c_hal.c
+
+   * Component: Keil::Device:KSDK HAL:LPTMR:1.2.0
+      Source file:   platform\hal\src\lptmr\fsl_lptmr_hal.c
+      Include file:  platform\hal\inc\fsl_lptmr_hal.h
+
+   * Component: Keil::Device:KSDK HAL:MCG:1.2.0
+      Include file:  platform\hal\inc\fsl_mcg_hal.h
+      Include file:  platform\hal\inc\fsl_mcg_hal_modes.h
+      Source file:   platform\hal\src\mcg\fsl_mcg_hal.c
+      Source file:   platform\hal\src\mcg\fsl_mcg_hal_modes.c
+
+   * Component: Keil::Device:KSDK HAL:OSC:1.2.0
+      Include file:  platform\hal\inc\fsl_osc_hal.h
+      Source file:   platform\hal\src\osc\fsl_osc_hal.c
+
+   * Component: Keil::Device:KSDK HAL:PORT:1.2.0
+      Include file:  platform\hal\inc\fsl_port_hal.h
+      Source file:   platform\hal\src\port\fsl_port_hal.c
+
+   * Component: Keil::Device:KSDK HAL:RTC:1.2.0
+      Include file:  platform\hal\inc\fsl_rtc_hal.h
+      Source file:   platform\hal\src\rtc\fsl_rtc_hal.c
+
+   * Component: Keil::Device:KSDK HAL:SIM:1.2.0
+      Source file:   platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.c
+      Include file:  platform\hal\inc\fsl_sim_hal.h
+
+   * Component: Keil::Device:KSDK HAL:UART:1.2.0
+      Include file:  platform\hal\inc\fsl_uart_hal.h
+      Source file:   platform\hal\src\uart\fsl_uart_hal.c
+
+   * Component: Keil::Device:KSDK HAL:eDMA:1.2.0
+      Include file:  platform\hal\inc\fsl_edma_hal.h
+      Source file:   platform\hal\src\edma\fsl_edma_hal.c
+
+   * Component: Keil::Device:KSDK OSA:OSA:Bare Metal:1.2.0
+      Source file:   platform\osa\src\fsl_os_abstraction_bm.c
+      Include file:  platform\osa\inc\fsl_os_abstraction.h
+
+   * Component: Keil::Device:KSDK System:Clock:1.2.0
+      Source file:   platform\system\src\clock\fsl_clock_manager.c
+      Source file:   platform\system\src\clock\MK64F12\fsl_clock_MK64F12.c
+      Include file:  platform\system\inc\fsl_clock_manager.h
+      Source file:   platform\system\src\clock\fsl_clock_manager_common.c
+
+   * Component: Keil::Device:KSDK System:Interrupt:1.2.0
+      Include file:  platform\system\inc\fsl_interrupt_manager.h
+      Source file:   platform\system\src\interrupt\fsl_interrupt_manager.c
+
+   * Component: Keil::Device:KSDK Utility:Debug Console:1.2.0
+      Include file:  platform\utilities\inc\fsl_debug_console.h
+      Source file:   platform\utilities\src\fsl_debug_console.c
+      Source file:   platform\utilities\src\print_scan.c
+
+   * Component: Keil::Device:Startup:2.8
+      Source file:   platform\devices\MK64F12\startup\system_MK64F12.c
+      Include file:  addon_cmsis\Driver\MK64F\Config\RTE_Device.h
+      Source file:   platform\devices\MK64F12\startup\arm\startup_MK64F12.s
+      Include file:  platform\devices\MK64F12\startup\system_MK64F12.h
+      Source file:   platform\devices\startup.c
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
