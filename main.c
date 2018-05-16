@@ -36,23 +36,32 @@ int main(){
 	float32_t dummy1[3] = {2.0, 2.0, 2.0};
 	float32_t dummy2[3] = {1.0, 1.0, 1.0};
 	float32_t corr[5] = {0};
+	float32_t max;
+	uint32_t maxIdx;
   //q31_t dummy1[3] = {2, 2, 2};
 	//q31_t dummy2[3] = {1, 1, 1};
 	//q31_t corr[5] = {0};
 	
 	int i;
+	int timeDelay;
+	//float Ts = ;
 	while(1){
 		debug_printf("Collecting data...\r\n");
 		collectData(adc0Data, adc1Data);
 		debug_printf("Done.\r\nPerforming correlation...\r\n");
 		arm_correlate_f32(adc0Data, VECLEN, adc1Data, VECLEN, corrData);
 		debug_printf("Done.\r\nCalculating time delay...\r\n");
+		arm_max_f32(corrData, CORRLEN, &max, &maxIdx);
 		//arm_add_q31(adc0Data, adc1Data, corrData, VECLEN); 
 		//arm_mult_q31(dummy1, dummy2, corr, 3);
 		//arm_mult_f32((float32_t*)dummy1, (float32_t*)dummy2, (float32_t*)corr, 3);
 		//arm_correlate_f32(dummy1, 3, dummy2, 3, corr);
 		
 		//printUSB(corrData);
+		debug_printf("%d %d\r\n", (unsigned)max, (unsigned)maxIdx);
+		//timeDelay = Ts*(maxIdx - VECLEN);
+		
+		
 	}
 }
 
