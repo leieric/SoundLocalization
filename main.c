@@ -59,41 +59,61 @@ int main(){
 		//debug_printf("Done.\r\nCalculating time delay...\r\n");
 		arm_max_f32(corrData, CORRLEN, &max, &maxIdx);
 		
-	int i;
+	/*int i;
 	for (i = 0; i < VECLEN; i++)
 	{
 		debug_printf("%d %d\r\n", ((unsigned)adc0Data[i]), ((unsigned) adc1Data[i]));
 		//debug_printf("%d\r\n", (unsigned)[i]);
-	}
+	}*/
 
-		//debug_printf("%d %d\r\n", (unsigned)max, (unsigned)maxIdx);
-		//timeDelay = Ts*(maxIdx - VECLEN);
-		//angle = asin(343*timeDelay/dist)*180/3.14159265;
-		//debug_printf("angle: %d \r\n", (unsigned)angle);
+		debug_printf("%d %d\r\n", (unsigned)max, (unsigned)maxIdx);
+		timeDelay = Ts*(maxIdx - VECLEN);
+		angle = asin(343*timeDelay/dist)*180/3.14159265;
+		debug_printf("angle: %d \r\n", (unsigned)angle);
 	}
 }
 
-/*void lightLED(float angle) {
-	if(angle
+void initLED() {
+	PORTC->PCR[5] = PORT_PCR_MUX(001);
+	PTC->PDDR = GPIO_PDDR_PDD(1<<5);
+	PORTC->PCR[7] = PORT_PCR_MUX(001);
+	PTC->PDDR = GPIO_PDDR_PDD(1<<7);
+	PORTC->PCR[0] = PORT_PCR_MUX(001);
+	PTC->PDDR = GPIO_PDDR_PDD(1<<0);
+	PORTC->PCR[9] = PORT_PCR_MUX(001);
+	PTC->PDDR = GPIO_PDDR_PDD(1<<9);
+	PORTC->PCR[8] = PORT_PCR_MUX(001);
+	PTC->PDDR = GPIO_PDDR_PDD(1<<8);
+}
+
+void lightLED(float angle) {
+	if(angle < 36)
+		
 	
 	
-}*/
+}
 
 void collectData(float32_t* vec0, float32_t * vec1)
 {
 	int i;
+	float32_t vec0Mean;
+	float32_t vec1Mean;
 	for (i = 0; i < VECLEN; i++)
-		{
-			ADC0_SC1A = 0 & ADC_SC1_ADCH_MASK; //Write to SC1A to start conversion
-			while(ADC0_SC2 & ADC_SC2_ADACT_MASK); //Conversion in progress
-			while(!(ADC0_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
-			vec0[i] = ((float32_t)ADC0_RA); //save to buffer
+	{
+		ADC0_SC1A = 0 & ADC_SC1_ADCH_MASK; //Write to SC1A to start conversion
+		while(ADC0_SC2 & ADC_SC2_ADACT_MASK); //Conversion in progress
+		while(!(ADC0_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
+		vec0[i] = ((float32_t)ADC0_RA); //save to buffer
 
-			ADC1_SC1A = 0 & ADC_SC1_ADCH_MASK; //Write to SC1A to start conversion
-			while(ADC1_SC2 & ADC_SC2_ADACT_MASK); //Conversion in progress
-			while(!(ADC1_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
-			vec1[i] = ((float32_t)ADC1_RA); //save to buffer
-		}
+		ADC1_SC1A = 0 & ADC_SC1_ADCH_MASK; //Write to SC1A to start conversion
+		while(ADC1_SC2 & ADC_SC2_ADACT_MASK); //Conversion in progress
+		while(!(ADC1_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
+		vec1[i] = ((float32_t)ADC1_RA); //save to buffer
+	}
+	arm_mean_f32(vec0, VECLEN, &vec0Mean);
+	arm_mean_f32(vec1, VECLEN, &vec1Mean);
+	//arm_offset_f32(vec0, -vec0Mean, vec0, VECLEN);
+	//arm_offset_f32(vec1, -vec1Mean, vec1, VECLEN);
 }
 
 void printUSB(float32_t * vec)
