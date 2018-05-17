@@ -6,9 +6,10 @@
 
 #define ARM_MATH_CM4
 #include <arm_math.h>
+#include <math.h>
 
-unsigned int VECLEN = 1000; 
-unsigned int CORRLEN = 1999;
+unsigned int VECLEN = 3000; 
+unsigned int CORRLEN = 5999;
 
 void collectData(float32_t * vec0, float32_t * vec1); //retrieves data from both adc inputs
 void printUSB(float32_t* vec); //prints to USB cable
@@ -36,34 +37,47 @@ int main(){
 	float32_t dummy1[3] = {2.0, 2.0, 2.0};
 	float32_t dummy2[3] = {1.0, 1.0, 1.0};
 	float32_t corr[5] = {0};
-	float32_t max;
-	uint32_t maxIdx;
+	
+	float32_t max; //correlation max
+	uint32_t maxIdx; //index of max
+	
   //q31_t dummy1[3] = {2, 2, 2};
 	//q31_t dummy2[3] = {1, 1, 1};
 	//q31_t corr[5] = {0};
 	
 	int i;
-	int timeDelay;
-	//float Ts = ;
+	float32_t timeDelay;
+	float32_t Ts = 1.7644E-6f;
+	float32_t angle;
+	float32_t dist = 0.1f;
+	
 	while(1){
-		debug_printf("Collecting data...\r\n");
+		//debug_printf("Collecting data...\r\n");
 		collectData(adc0Data, adc1Data);
-		debug_printf("Done.\r\nPerforming correlation...\r\n");
+		//debug_printf("Done.\r\nPerforming correlation...\r\n");
 		arm_correlate_f32(adc0Data, VECLEN, adc1Data, VECLEN, corrData);
-		debug_printf("Done.\r\nCalculating time delay...\r\n");
+		//debug_printf("Done.\r\nCalculating time delay...\r\n");
 		arm_max_f32(corrData, CORRLEN, &max, &maxIdx);
-		//arm_add_q31(adc0Data, adc1Data, corrData, VECLEN); 
-		//arm_mult_q31(dummy1, dummy2, corr, 3);
-		//arm_mult_f32((float32_t*)dummy1, (float32_t*)dummy2, (float32_t*)corr, 3);
-		//arm_correlate_f32(dummy1, 3, dummy2, 3, corr);
 		
-		//printUSB(corrData);
-		debug_printf("%d %d\r\n", (unsigned)max, (unsigned)maxIdx);
+	int i;
+	for (i = 0; i < VECLEN; i++)
+	{
+		debug_printf("%d %d\r\n", ((unsigned)adc0Data[i]), ((unsigned) adc1Data[i]));
+		//debug_printf("%d\r\n", (unsigned)[i]);
+	}
+
+		//debug_printf("%d %d\r\n", (unsigned)max, (unsigned)maxIdx);
 		//timeDelay = Ts*(maxIdx - VECLEN);
-		
-		
+		//angle = asin(343*timeDelay/dist)*180/3.14159265;
+		//debug_printf("angle: %d \r\n", (unsigned)angle);
 	}
 }
+
+/*void lightLED(float angle) {
+	if(angle
+	
+	
+}*/
 
 void collectData(float32_t* vec0, float32_t * vec1)
 {
@@ -73,12 +87,12 @@ void collectData(float32_t* vec0, float32_t * vec1)
 			ADC0_SC1A = 0 & ADC_SC1_ADCH_MASK; //Write to SC1A to start conversion
 			while(ADC0_SC2 & ADC_SC2_ADACT_MASK); //Conversion in progress
 			while(!(ADC0_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
-			vec0[i] = (float32_t)(ADC0_RA/VECLEN); //save to buffer
+			vec0[i] = ((float32_t)ADC0_RA); //save to buffer
 
 			ADC1_SC1A = 0 & ADC_SC1_ADCH_MASK; //Write to SC1A to start conversion
 			while(ADC1_SC2 & ADC_SC2_ADACT_MASK); //Conversion in progress
 			while(!(ADC1_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
-			vec1[i] = (float32_t)(ADC1_RA/VECLEN); //save to buffer
+			vec1[i] = ((float32_t)ADC1_RA); //save to buffer
 		}
 }
 
