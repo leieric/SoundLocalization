@@ -37,41 +37,22 @@ int main(){
 		return -1;
 	}
 	
-	float32_t dummy1[3] = {2.0, 2.0, 2.0};
-	float32_t dummy2[3] = {1.0, 1.0, 1.0};
-	float32_t corr[5] = {0};
-	
 	float32_t max; //correlation max
 	uint32_t maxIdx; //index of max
-	
-	int i;
-	float32_t timeDelay;
-	float32_t Ts = 1.7644E-6f;
-	float32_t angle;
-	float32_t dist = 0.1f;
+	float32_t timeDelay; //time delay between sound signals
+	float32_t Ts = 1.7644E-6f; //calculated ADC sampling period
+	float32_t angle; //angle of incoming sound w.r. to perpendicualar
+	float32_t dist = 0.1f; //distance between microphones
 	
 	while(1){
-		//debug_printf("Collecting data...\r\n");
-		collectData(adc0Data, adc1Data);
-		//debug_printf("Done.\r\nPerforming correlation...\r\n");
-		arm_correlate_f32(adc0Data, VECLEN, adc1Data, VECLEN, corrData);
-		//debug_printf("Done.\r\nCalculating time delay...\r\n");
-		arm_max_f32(corrData, CORRLEN, &max, &maxIdx);
-		
-	int i;
-	/*for (i = 0; i < VECLEN; i++)
-	{
-		debug_printf("%d %d\r\n", ((unsigned)adc0Data[i]), ((unsigned) adc1Data[i]));
-		//debug_printf("%d\r\n", (unsigned)[i]);
-	}*/
+		collectData(adc0Data, adc1Data); //Collect data from ADC
+		arm_correlate_f32(adc0Data, VECLEN, adc1Data, VECLEN, corrData); //Compute correlation
+		arm_max_f32(corrData, CORRLEN, &max, &maxIdx); //Find max index
 
 		debug_printf("%d %d\r\n", (unsigned)max, (unsigned)maxIdx);
-		timeDelay = Ts*(maxIdx - VECLEN);
-		debug_printf("td: %d \r\n", (unsigned)timeDelay);
+		timeDelay = Ts*((int)maxIdx - (int)VECLEN);
 		angle = asinf(343*timeDelay/dist)*180/3.14159265;
-		debug_printf("angle: %d \r\n", (unsigned)angle);
-		debug_printf("anglearg: %d \r\n", (unsigned)(100*343*timeDelay/dist));
-		PRINTF("%f\r\n", angle);
+		debug_printf("angle: %d \r\n", (int)angle);
 		lightLED(angle);
 	}
 }
@@ -124,20 +105,15 @@ void collectData(float32_t* vec0, float32_t * vec1)
 		while(!(ADC1_SC1A & ADC_SC1_COCO_MASK)); //Wait until conversion complete
 		vec1[i] = (((float32_t)ADC1_RA)/1000); //save to buffer
 	}
-	//arm_mean_f32(vec0, VECLEN, &vec0Mean);
-	//arm_mean_f32(vec1, VECLEN, &vec1Mean);
-	//arm_offset_f32(vec0, -vec0Mean, vec0, VECLEN);
-	//arm_offset_f32(vec1, -vec1Mean, vec1, VECLEN);
+	arm_mean_f32(vec0, VECLEN, &vec0Mean); //Remove mean from both signals
+	arm_mean_f32(vec1, VECLEN, &vec1Mean);
+	arm_offset_f32(vec0, -vec0Mean, vec0, VECLEN);
+	arm_offset_f32(vec1, -vec1Mean, vec1, VECLEN);
 }
 
 void printUSB(float32_t * vec)
 {
 	int i;
 	for (i = 0; i < CORRLEN; i++)
-	{
-		//debug_printf("%d %d\r\n", corrData[i] & 0x0000ffff, coo[i] >> 16);
 		debug_printf("%d\r\n", (unsigned)vec[i]);
-	}
 }
-
-
